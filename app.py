@@ -6,7 +6,7 @@ import requests
 from google.cloud import dialogflowcx_v3beta1 as dialogflowcx
 
 # ---------- CONFIG ----------
-TELEGRAM_TOKEN = os.environ["8070124816:AAHn770mI2WFwiXw_7_cC9IUk51USpILkHM"]
+TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
 PROJECT_ID = os.environ["DIALOGFLOW_PROJECT_ID"]
 AGENT_LOCATION = os.environ["DIALOGFLOW_AGENT_LOCATION"]
 AGENT_ID = os.environ["DIALOGFLOW_AGENT_ID"]
